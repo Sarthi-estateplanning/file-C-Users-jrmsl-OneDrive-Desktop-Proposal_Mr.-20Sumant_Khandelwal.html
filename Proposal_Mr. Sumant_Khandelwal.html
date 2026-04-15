@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Succession Planning Proposal — Sumant Khandelwal | Sarthi Estate and Legacy Partners</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0D2240;
+    --gold: #B8963E;
+    --gold-light: #D4AF5A;
+    --cream: #FAF6EF;
+    --cream-dark: #F0E8D8;
+    --slate: #3A3A3A;
+    --slate-mid: #5A5A5A;
+    --slate-light: #888;
+    --white: #ffffff;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'Jost', Arial, sans-serif;
+  }
+
+  body {
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--slate);
+    background: #f5f2ed;
+    margin: 0;
+    padding: 40px 20px;
+  }
+
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    background: var(--white);
+    box-shadow: 0 4px 40px rgba(0,0,0,0.10);
+  }
+
+  /* ── COVER ── */
+  .cover {
+    background: var(--navy);
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cover-top-bar {
+    background: var(--gold);
+    height: 6px;
+    width: 100%;
+  }
+
+  .cover-inner {
+    padding: 60px 70px 80px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .cover-logo-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 80px;
+  }
+
+  .cover-logo-row img {
+    width: 90px;
+    height: auto;
+    background: white;
+    border-radius: 8px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    padding: 6px;
+  }
+
+  .cover-firm-name {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.5;
+  }
+
+  .cover-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cover-tag {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+
+  .cover-title {
+    font-family: var(--serif);
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 1.05;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  .cover-title span {
+    color: var(--gold);
+    display: block;
+  }
+
+  .cover-subtitle {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(255,255,255,0.55);
+    margin-top: 16px;
+    margin-bottom: 60px;
+  }
+
+  .cover-rule {
+    width: 60px;
+    height: 2px;
+    background: var(--gold);
+    margin-bottom: 40px;
+  }
+
+  .cover-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 48px;
+  }
+
+  .cover-meta-item label {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+
+  .cover-meta-item span {
+    display: block;
+    font-family: var(--serif);
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.88);
+  }
+
+  .cover-bottom-bar {
+    height: 4px;
+    background: var(--gold);
+    opacity: 0.4;
+  }
+
+  /* ── BODY CONTENT ── */
+  .content {
+    padding: 0;
+  }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    background: var(--cream);
+    border-top: 4px solid var(--gold);
+    padding: 48px 70px 36px;
+    margin-bottom: 0;
+  }
+
+  .section-number {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  .section-title {
+    font-family: var(--serif);
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.15;
+  }
+
+  /* ── BODY ── */
+  .section-body {
+    padding: 40px 70px 56px;
+  }
+
+  p {
+    margin-bottom: 18px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: var(--slate);
+  }
+
+  p:last-child { margin-bottom: 0; }
+
+  /* ── THREE QUESTIONS ── */
+  .questions {
+    margin: 36px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .question-card {
+    display: flex;
+    gap: 20px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+    padding: 20px 24px;
+  }
+
+  .question-num {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    flex-shrink: 0;
+    padding-top: 2px;
+  }
+
+  .question-text {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.65;
+    color: var(--navy);
+    margin: 0;
+  }
+
+  /* ── ANSWER LINE ── */
+  .answer-line {
+    background: var(--navy);
+    padding: 20px 28px;
+    margin: 36px 0;
+  }
+
+  .answer-line p {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-style: italic;
+    color: var(--white);
+    margin: 0;
+    text-align: center;
+  }
+
+  .answer-line p strong {
+    color: var(--gold);
+  }
+
+  /* ── HONESTY BOX ── */
+  .honesty-box {
+    border: 1px solid var(--cream-dark);
+    border-top: 3px solid var(--navy);
+    padding: 32px 36px;
+    margin: 32px 0;
+    background: var(--cream);
+  }
+
+  .honesty-box-title {
+    font-family: var(--serif);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--navy);
+    margin-bottom: 16px;
+  }
+
+  /* ── PART DIVIDER ── */
+  .part-divider {
+    background: var(--navy);
+    padding: 28px 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .part-label {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    white-space: nowrap;
+  }
+
+  .part-title {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .part-rule {
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.15);
+  }
+
+  /* ── SUB HEADING ── */
+  .sub-heading {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-top: 36px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  /* ── OBJECTIVE CARDS ── */
+  .objectives {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 28px 0;
+  }
+
+  .obj-card {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--cream-dark);
+    overflow: hidden;
+  }
+
+  .obj-num {
+    background: var(--navy);
+    color: var(--gold);
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 600;
+    width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .obj-body {
+    padding: 16px 20px;
+    background: var(--cream);
+    flex: 1;
+  }
+
+  .obj-title {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+
+  .obj-desc {
+    font-size: 14.5px;
+    color: var(--slate-mid);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ── POA CARDS ── */
+  .poa-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 28px 0;
+  }
+
+  .poa-card {
+    background: var(--cream);
+    border-top: 3px solid var(--gold);
+    padding: 22px 20px;
+  }
+
+  .poa-card-title {
+    font-family: var(--serif);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+
+  .poa-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--slate-mid);
+    margin: 0;
+  }
+
+  /* ── SCOPE ── */
+  .scope-list {
+    list-style: none;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .scope-list li {
+    display: flex;
+    gap: 14px;
+    padding: 16px 18px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--slate);
+  }
+
+  .scope-list li::before {
+    content: '◆';
+    color: var(--gold);
+    font-size: 10px;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .scope-list li strong {
+    color: var(--navy);
+    font-weight: 600;
+  }
+
+  /* ── FEE TABLE ── */
+  .fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 14.5px;
+  }
+
+  .fee-table thead tr {
+    background: var(--navy);
+    color: var(--white);
+  }
+
+  .fee-table thead th {
+    padding: 14px 18px;
+    text-align: left;
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .fee-table thead th:last-child { text-align: right; }
+
+  .fee-table tbody tr {
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .fee-table tbody tr:nth-child(odd) { background: var(--cream); }
+  .fee-table tbody tr:nth-child(even) { background: var(--white); }
+
+  .fee-table tbody td {
+    padding: 13px 18px;
+    color: var(--slate);
+    font-size: 14.5px;
+  }
+
+  .fee-table tbody td:last-child {
+    text-align: right;
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--navy);
+  }
+
+  .fee-table .subtotal-row td {
+    background: #E8EDF4;
+    font-weight: 600;
+    color: var(--navy);
+    font-size: 15px;
+    padding: 14px 18px;
+  }
+
+  .fee-table .discount-row td {
+    background: var(--white);
+    color: var(--slate-mid);
+    font-style: italic;
+  }
+
+  .fee-table .total-row td {
+    background: var(--navy);
+    color: var(--white);
+    font-family: var(--serif);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 18px;
+  }
+
+  .fee-table .total-row td:last-child {
+    color: var(--gold);
+    font-size: 20px;
+  }
+
+  /* ── PAYMENT TERMS ── */
+  .payment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+  }
+
+  .payment-card {
+    background: var(--cream);
+    border-top: 3px solid var(--navy);
+    padding: 22px 20px;
+    text-align: center;
+  }
+
+  .payment-amount {
+    font-family: var(--serif);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--navy);
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .payment-label {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--slate-mid);
+  }
+
+  .payment-note {
+    font-size: 13px;
+    color: var(--slate-mid);
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  /* ── BANK DETAILS ── */
+  .bank-box {
+    border: 1px solid var(--cream-dark);
+    margin: 24px 0;
+    overflow: hidden;
+  }
+
+  .bank-box-header {
+    background: var(--navy);
+    padding: 12px 20px;
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .bank-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--cream);
+  }
+
+  .bank-table tr {
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .bank-table tr:last-child { border-bottom: none; }
+
+  .bank-table td {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .bank-table td:first-child {
+    color: var(--slate-mid);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: 38%;
+  }
+
+  .bank-table td:last-child {
+    color: var(--navy);
+    font-weight: 500;
+    font-family: var(--serif);
+    font-size: 15px;
+  }
+
+  /* ── CLOSING LINE ── */
+  .closing-box {
+    background: var(--navy);
+    padding: 36px 70px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .closing-box p {
+    font-family: var(--serif);
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(255,255,255,0.88);
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    background: var(--cream-dark);
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid var(--gold);
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer-left img {
+    width: 36px;
+    height: auto;
+  }
+
+  .footer-firm {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--navy);
+    opacity: 0.65;
+  }
+
+  .footer-right {
+    font-size: 12px;
+    color: var(--slate-light);
+    font-style: italic;
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; }
+    .cover { min-height: auto; page-break-after: always; }
+    .part-divider { page-break-before: always; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ═══ COVER PAGE ═══ -->
+  <div class="cover">
+    <div class="cover-top-bar"></div>
+    <div class="cover-inner">
+      <div class="cover-logo-row">
+        <img src="data:image/png;base64,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" alt="Sarthi Estate and Legacy Partners Logo">
+        <div class="cover-firm-name">Sarthi Estate and<br>Legacy Partners</div>
+      </div>
+
+      <div class="cover-body">
+        <div class="cover-tag">Succession Planning Proposal</div>
+        <div class="cover-title">
+          Succession &<br>Estate
+          <span>Planning</span>
+        </div>
+        <div class="cover-subtitle">Sumant Khandelwal & Family | Will, Family Trust & Power of Attorney</div>
+        <div class="cover-rule"></div>
+        <div class="cover-meta">
+          <div class="cover-meta-item">
+            <label>Prepared For</label>
+            <span>Mr. Sumant Khandelwal</span>
+          </div>
+          <div class="cover-meta-item">
+            <label>Prepared By</label>
+            <span>Sarthi Estate and Legacy Partners</span>
+          </div>
+          <div class="cover-meta-item">
+            <label>Date</label>
+            <span>15 April 2026</span>
+          </div>
+          <div class="cover-meta-item">
+            <label>Project Timeline</label>
+            <span>15 July 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cover-bottom-bar"></div>
+  </div>
+
+  <!-- ═══ CONTENT ═══ -->
+  <div class="content">
+
+    <!-- Understanding Your Situation -->
+    <div class="section-header">
+      <div class="section-number">Opening</div>
+      <div class="section-title">Understanding Your Situation</div>
+    </div>
+    <div class="section-body">
+      <p>Sumant, you are 62 years old, have built a successful business over decades, and have a family — Mrs. Rupa Khandelwal, your son Aditya, your married daughters, and your grandchildren. You are at a stage where everything you have built — the businesses, the properties, the investments, the relationships — deserves a structure that protects it, preserves it, and passes it on exactly the way you intend. Not by assumption. Not by hope. By design.</p>
+      <p>Three questions define where you stand today:</p>
+
+      <div class="questions">
+        <div class="question-card">
+          <div class="question-num">1</div>
+          <p class="question-text">If something were to happen to you tomorrow, is there a clear, legally enforceable structure ensuring that your assets reach your family — without court intervention, without delay, without dispute?</p>
+        </div>
+        <div class="question-card">
+          <div class="question-num">2</div>
+          <p class="question-text">Aditya is unmarried today. Your daughters are settled. Your grandchildren are growing. Is there a plan that accounts for each of them — fairly, thoughtfully, and in a way that keeps the family together rather than pulling it apart?</p>
+        </div>
+        <div class="question-card">
+          <div class="question-num">3</div>
+          <p class="question-text">The wealth you have built spans business interests, financial investments, and immovable assets. Is it protected — from fragmentation, from external claims, from the kind of ambiguity that turns families into strangers?</p>
+        </div>
+      </div>
+
+      <div class="answer-line">
+        <p>A well-structured Will for you and Mrs. Rupa Khandelwal, a <strong>Khandelwal Family Trust</strong>, and a Power of Attorney answer all three questions.</p>
+      </div>
+    </div>
+
+    <!-- A Word of Honesty -->
+    <div class="section-header">
+      <div class="section-number">Before We Begin</div>
+      <div class="section-title">A Word of Honesty</div>
+    </div>
+    <div class="section-body">
+      <div class="honesty-box">
+        <div class="honesty-box-title">What Most Families Believe — and Why It Is Not Enough</div>
+        <p>There is a common belief among families at your stage that a Will alone is sufficient — that writing down who gets what is enough to ensure a smooth transfer of wealth. It is not.</p>
+        <p>A Will comes into effect only after death. It goes through probate in many cases. It can be challenged. It does not protect assets during your lifetime. It does not address what happens if you are incapacitated rather than gone. And it does not provide the kind of structured, governed distribution that a family of your complexity requires.</p>
+      </div>
+      <p>The purpose of this engagement is not simply to draft documents. It is to build a structure — one that protects Mrs. Rupa Khandelwal's independence and security, provides a clear and fair inheritance framework for your children and grandchildren, ensures your business interests transition without disruption, and gives you the peace of mind that comes from knowing every question has already been answered.</p>
+    </div>
+
+    <!-- Part A: Family Trust -->
+    <div class="part-divider">
+      <div class="part-label">Part A</div>
+      <div class="part-rule"></div>
+      <div class="part-title">The Khandelwal Family Trust</div>
+    </div>
+
+    <div class="section-body">
+      <div class="sub-heading">What It Is</div>
+      <p>The Khandelwal Family Trust is a private, discretionary, irrevocable trust — a standalone legal entity with its own PAN, bank account, and investment accounts, completely separate from your personal estate.</p>
+      <p><strong>Discretionary</strong> means the trustees have the judgment to decide how much each beneficiary receives, when, and for what purpose — based on actual needs at that point in life, not predetermined shares that may not reflect reality years from now.</p>
+      <p><strong>Irrevocable</strong> means once assets enter the trust, they are protected. This is not a limitation — it is the trust's most powerful feature. The assets are working for your family, and they are protected while they work.</p>
+
+      <div class="sub-heading">What the Trust Is Built For</div>
+
+      <div class="objectives">
+        <div class="obj-card">
+          <div class="obj-num">1</div>
+          <div class="obj-body">
+            <div class="obj-title">Mrs. Rupa Khandelwal's security and independence</div>
+            <p class="obj-desc">When a patriarch passes, well-meaning relatives from either side often begin to involve themselves in financial decisions that are not theirs to make. The Trust changes this completely. The trustees are defined in the deed. Decision-making authority belongs to them alone. No relative, however senior or well-intentioned, has any legal standing to interfere. Mrs. Rupa Khandelwal, as a trustee, has complete and legally protected control. The Trust is not just a financial instrument — it is her shield.</p>
+          </div>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">2</div>
+          <div class="obj-body">
+            <div class="obj-title">A fair and structured inheritance for your children</div>
+            <p class="obj-desc">Aditya is unmarried today — his life circumstances will change. Your daughters are in their own families, with their own needs and futures. The Trust is designed to provide for each of them fairly, in a structured and purposeful way — not as a lump sum that creates more complexity than clarity. The trustee framework ensures distributions are made thoughtfully, with documented reasoning, not under pressure or in grief.</p>
+          </div>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">3</div>
+          <div class="obj-body">
+            <div class="obj-title">Your grandchildren's future</div>
+            <p class="obj-desc">The Trust can be structured to extend its care to the next generation — ensuring that the wealth you have built continues to serve your grandchildren at appropriate stages of their lives, whether for education, career, health, or long-term welfare.</p>
+          </div>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">4</div>
+          <div class="obj-body">
+            <div class="obj-title">Business continuity and succession</div>
+            <p class="obj-desc">Your business interests require a clear succession pathway. The Trust can hold and govern business assets in a manner that ensures operations are not disrupted and that authority transitions in an orderly, pre-defined manner — not through negotiation at a moment of crisis.</p>
+          </div>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">5</div>
+          <div class="obj-body">
+            <div class="obj-title">Your peace of mind</div>
+            <p class="obj-desc">The Trust, once created and registered, operates according to its deed. You do not need to make fresh decisions every time a need arises. The structure exists, the rules are documented, and the trustees have everything they need to act — for as long as the trust is needed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-heading">How Distributions Work</div>
+      <p>The Trust deed defines a clear priority framework. Mrs. Rupa Khandelwal's day-to-day needs and long-term security are the first and unrestricted claim on the corpus. Beyond that, distributions to children and grandchildren are guided by trustee judgment, documented purpose, and the values you build into the deed today.</p>
+      <p>The deed will also define a <strong>Negative List</strong> — purposes for which the corpus cannot be used — ensuring that your intentions govern the money long after you are no longer around to enforce them personally.</p>
+
+      <div class="sub-heading">What Can Be Adapted Over Time</div>
+      <p>The Trust is not a rigid instrument. Distribution amounts, investment approach, operational rules, and trustee composition can all be revisited and adjusted by the trustees as family circumstances evolve. It is designed to remain relevant and purposeful for 20–25 years — not just for the day it is signed.</p>
+    </div>
+
+    <!-- Part B: The Will -->
+    <div class="part-divider">
+      <div class="part-label">Part B</div>
+      <div class="part-rule"></div>
+      <div class="part-title">The Will</div>
+    </div>
+
+    <div class="section-body">
+      <p>Your Will — and Mrs. Rupa Khandelwal's Will — are the instruments that direct your respective estates at the time of death and ensure your family is provided for exactly as you intend.</p>
+      <p>A Will is a deeply personal document. What you choose to give, to whom, in what proportion, and at what stage — these are decisions that belong entirely to you. Our role is to translate your intentions into a legally sound, clearly drafted document that leaves no room for ambiguity or dispute.</p>
+      <p>The Will and the Trust are designed to work in harmony. Which assets pass directly to family members, which are directed into the Trust, and what specific bequests are made — all of this will be discussed and decided with you during the engagement. There is no one right answer. The right answer is the one that reflects your family's needs and your personal wishes.</p>
+      <p>What each Will will ensure, at a minimum, is that every asset you leave behind has a defined destination, every person you care for is provided for in the way you intended, and nothing is left to assumption or dispute.</p>
+      <p>The Wills will also include a review of existing nominations across bank accounts, mutual fund folios, insurance policies, and demat accounts. A nomination and a Will can sometimes point in different directions — and where a nomination exists, it typically prevails. Identifying and resolving these misalignments is an important part of ensuring your overall succession plan works as intended.</p>
+    </div>
+
+    <!-- Part C: Power of Attorney -->
+    <div class="part-divider">
+      <div class="part-label">Part C</div>
+      <div class="part-rule"></div>
+      <div class="part-title">Power of Attorney</div>
+    </div>
+
+    <div class="section-body">
+      <p>Most succession planning conversations focus on what happens after death. Very few address what happens if you are alive — but unable to act.</p>
+      <p>A medical emergency, a period of incapacity, or simply being unavailable at a critical moment can leave your family without the legal authority to manage your bank accounts, business operations, investments, or property matters. In the absence of a properly executed Power of Attorney, even your closest family members have no legal standing to act on your behalf — regardless of your relationship or their intentions.</p>
+
+      <div class="poa-grid">
+        <div class="poa-card">
+          <div class="poa-card-title">What It Does</div>
+          <p>It authorises a trusted person — or persons — to manage your financial, legal, and business affairs on your behalf, to the extent you define. It can be structured as a General POA covering broad authority, or as a Specific POA limited to defined transactions or purposes. We will draft one POA each for Mr. Sumant Khandelwal and Mrs. Rupa Khandelwal, ensuring both are protected and empowered.</p>
+        </div>
+        <div class="poa-card">
+          <div class="poa-card-title">Why It Matters at This Stage</div>
+          <p>At 62, with active business interests and a diversified asset base, the POA is not a document for old age. It is a document for right now — ensuring that if you are ever temporarily unable to act, nothing stalls, no opportunity is lost, and your family is not left navigating institutions and authorities without legal backing.</p>
+        </div>
+      </div>
+
+      <div class="honesty-box" style="margin-top: 28px;">
+        <div class="honesty-box-title">How It Connects to the Overall Plan</div>
+        <p style="margin:0;">The POA works alongside the Will and the Trust — not as a standalone afterthought. Together, the three instruments ensure that your family is protected and empowered in every scenario: while you are alive and active, while you are alive but unavailable, and after you are gone.</p>
+      </div>
+    </div>
+
+    <!-- Scope -->
+    <div class="section-header">
+      <div class="section-number">Scope</div>
+      <div class="section-title">Scope of This Engagement</div>
+    </div>
+    <div class="section-body">
+      <p>Our engagement covers the complete drafting and structuring of:</p>
+      <ul class="scope-list">
+        <li><div><strong>The Khandelwal Family Trust deed</strong> — including the full definitions framework, discretionary and irrevocable structure, trustee framework with succession provisions, beneficiary provisions, distribution priority framework with Negative List, investment policy principles, and all protective and contingency clauses</div></li>
+        <li><div><strong>Will — Mr. Sumant Khandelwal</strong> — drafted based on specific instructions and wishes, with a nomination review across all identifiable assets</div></li>
+        <li><div><strong>Will — Mrs. Rupa Khandelwal</strong> — drafted based on specific instructions and wishes, with a nomination review across all identifiable assets</div></li>
+        <li><div><strong>Power of Attorney — Mr. Sumant Khandelwal</strong> — drafted and structured based on confirmed scope, with execution and registration guidance</div></li>
+        <li><div><strong>Power of Attorney — Mrs. Rupa Khandelwal</strong> — drafted and structured based on confirmed scope, with execution and registration guidance</div></li>
+        <li><div>Guidance through the Trust registration process and assistance in getting registration completed as needed</div></li>
+      </ul>
+    </div>
+
+    <!-- Fees -->
+    <div class="section-header">
+      <div class="section-number">Fees</div>
+      <div class="section-title">Fees & Payment Terms</div>
+    </div>
+    <div class="section-body">
+
+      <table class="fee-table">
+        <thead>
+          <tr>
+            <th>Particulars</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Will — Mr. & Mrs. Khandelwal (2 Wills)</td>
+            <td>₹30,000</td>
+          </tr>
+          <tr>
+            <td>POA — Mr. & Mrs. Khandelwal (2 POAs)</td>
+            <td>₹30,000</td>
+          </tr>
+          <tr>
+            <td>Family Trust Structuring & Drafting</td>
+            <td>₹1,50,000</td>
+          </tr>
+          <tr class="subtotal-row">
+            <td>Total Project Fee</td>
+            <td>₹2,10,000</td>
+          </tr>
+          <tr class="discount-row">
+            <td>Less: Special Consideration</td>
+            <td>(₹10,000)</td>
+          </tr>
+          <tr class="total-row">
+            <td>Final Agreed Fee</td>
+            <td>₹2,00,000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="font-size:13.5px; color: var(--slate-mid); font-style: italic; margin-top: 8px;">Our fee covers the complete drafting of the Trust Deed, both Wills, and both Powers of Attorney. All charges related to registration — stamp papers, notarisation, registration fees, and any related government charges — are borne by you directly.</p>
+
+      <div class="sub-heading">Payment Terms</div>
+      <div class="payment-grid">
+        <div class="payment-card">
+          <span class="payment-amount">50%</span>
+          <div class="payment-label">Advance to Commence</div>
+          <div class="payment-note">Payable at start of engagement</div>
+        </div>
+        <div class="payment-card">
+          <span class="payment-amount">50%</span>
+          <div class="payment-label">On Completion</div>
+          <div class="payment-note">Payable on delivery of all final documents</div>
+        </div>
+      </div>
+
+      <div class="bank-box">
+        <div class="bank-box-header">Sarthi — Bank Details for Payment</div>
+        <table class="bank-table">
+          <tr><td>Account Name</td><td>SARTHI ESTATE AND LEGACY PARTNERS</td></tr>
+          <tr><td>Account Number</td><td>2502240485652496</td></tr>
+          <tr><td>Bank Name</td><td>AU Small Finance Bank</td></tr>
+          <tr><td>Branch</td><td>Hathroi, Jaipur</td></tr>
+          <tr><td>IFSC Code</td><td>AUBL0002404</td></tr>
+          <tr><td>Account Type</td><td>Current</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Closing -->
+    <div class="closing-box">
+      <p>We request you to kindly go through this proposal and revert with your approval over email to formally initiate the engagement.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-left">
+        <img src="data:image/png;base64,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" alt="Sarthi Logo">
+        <div class="footer-firm">Sarthi Estate and Legacy Partners</div>
+      </div>
+      <div class="footer-right">Private &amp; Confidential — For Addressee Only</div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
